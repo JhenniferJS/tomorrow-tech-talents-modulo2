@@ -1,0 +1,18 @@
+1)Polimorfismo é poder utilizar uma forma genérica para representar um conjunto de coisas, através da ideia "é um".
+  Por exemplo, cachorro é um animal.
+2)Polimorfismo pode ser uma estrategia util porque permite a reutilização de codigo, onde atributos
+  e metodos podem ser reaproveitados em classes filhas.
+3)Cachorro cachorro = new Cachorro()
+  Animal cachorro = new Cachorro()
+4)V
+5)V
+6)F
+7)Estarão disponíveis os métodos alimentar, respirar, brincar e comunicar.
+8)Estarão disponíveis os métodos brincar, comunicar e alimentar.
+9)Porque será imprido na tela o endereço na memória onde está a intância de Aluno.
+10)Pode sobrescrever o metodo toString() da seguinte forma: 
+	@Override
+	public String toString(){
+		return "Nome: " + nome +
+			"\nMatrícula: " + matricula;
+	}
